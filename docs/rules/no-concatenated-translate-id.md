@@ -1,4 +1,6 @@
-# Disallow concatenation of translate id keys (`no-concatenated-translate-id`)
+# Disallow concatenation of Translate id (`@deskpro/deskpro-product/no-concatenated-translate-id`)
+
+<!-- end auto-generated rule header -->
 
 We have a cleanup script that runs occassionally to remove unused translation keys from the language files (resources/language/messages). 
 If you break up the translation key with concatenation, then the cleanup script won't find the translation key in the codebase and will remove it from the language files.
