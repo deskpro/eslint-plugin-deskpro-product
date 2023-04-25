@@ -45,10 +45,10 @@ Then configure the rules you want to use under the rules section in `.eslintrc.j
 
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-| Name                                                                                     | Description                                        | 🔧  |
-| :--------------------------------------------------------------------------------------- | :------------------------------------------------- | :-- |
-| [no-concatenated-formatMessage-id](docs/rules/no-concatenated-formatMessage-id.md)       | Disallow concatenation of formatMessage id         |     |
-| [no-concatenated-translate-id](docs/rules/no-concatenated-translate-id.md)               | Disallow concatenation of Translate id             |     |
-| [styled-tspan-must-have-as-attribute](docs/rules/styled-tspan-must-have-as-attribute.md) | Styled TSpan element attributes must contain 'as'. | 🔧  |
+| Name                                                                                     | Description                                        | 🔧 |
+| :--------------------------------------------------------------------------------------- | :------------------------------------------------- | :- |
+| [no-concatenated-formatMessage-id](docs/rules/no-concatenated-formatMessage-id.md)       | Disallow concatenation of formatMessage id         |    |
+| [no-concatenated-translate-id](docs/rules/no-concatenated-translate-id.md)               | Disallow concatenation of Translate id             |    |
+| [styled-tspan-must-have-as-attribute](docs/rules/styled-tspan-must-have-as-attribute.md) | Styled TSpan element attributes must contain 'as'. | 🔧 |
 
 <!-- end auto-generated rules list -->
