@@ -1,5 +1,7 @@
 # Styled TSpan element attributes must contain 'as' (`@deskpro/deskpro-product/styled-tspan-must-have-as-attribute`)
 
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
 <!-- end auto-generated rule header -->
 
 Deskpro-UI will try to infer what tag type TSpan should use from it's `type` attribute. However, if a TSpan is `styled()` and then has it's attributes set with a `attrs()` method, this will override the logic that handles this in DP-UI. To that end, we have to ensure that any `attrs()` methods return attributes with an `as` prop.
